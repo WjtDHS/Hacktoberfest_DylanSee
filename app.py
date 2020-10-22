@@ -2,7 +2,7 @@ print("Title of program: Encouragement bot")
 print()
 while True:
   description = input("Could you describe how you feel in a sentence?")
-
+  aa= input("Hello")
   list_of_words = description.split()
 
   feelings_list = []
@@ -10,7 +10,8 @@ while True:
   counter = 0
   
   for each_word in list_of_words:
-    
+    if each_word != "sad" and each_word != "happy" and 
+    if each_word != "sad" and each_word != "" and 
     if each_word == "sad":
       feelings_list.append("sad")
       encouragement_list.append("tomorrow will be a better day")
@@ -23,8 +24,11 @@ while True:
       feelings_list.append("tired")
       encouragement_list.append("you are stronger than you think")
       counter += 1
-
-  if counter == 0:
+    if each_word == "bored":
+      feelings_list.append("bored")
+      encouragement_list.append("find somthing to do")
+      counter += 1
+      if counter == 0:
     
       output = "Sorry I don't really understand. Please use different words?"
 
